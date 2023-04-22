@@ -1,0 +1,92 @@
+/** Universal Styles **/
+html {
+    font-size: 16px;
+    background-color: #929292;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+p {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/** Header and Nav **/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+header h1 {
+    padding-left: 1.1rem;
+    color: black;
+}
+
+header span {
+    display: flex;
+    align-items: center;
+}
+
+header span img{
+    display: inline;
+    padding-left: 1.1rem;
+}
+
+nav ul {
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 1.3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+nav ul li :hover{
+    color: #929292;
+}
+
+/** About me article **/
+#aboutme {
+    position: relative;
+    top: 10rem;
+    padding-left: 1.1rem;
+}
+
+#aboutme h1 {
+    margin-left: 0.4rem;
+    font-size: 2rem;
+}
+
+.aboutme {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+    width: 90%;
+}
