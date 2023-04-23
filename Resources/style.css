@@ -1,7 +1,9 @@
 /** Universal Styles **/
 html {
     font-size: 16px;
-    background-color: #929292;
+    background-image: url(./Media/blob-scene-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -25,13 +27,21 @@ p {
 /** Header and Nav **/
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #FBAE3C;
+    border: 1px solid #FBAE3C;
+    border-radius: 56px;
     position: fixed;
-    width: 100%;
+    width: 70%;
     padding-bottom: 2rem;
     padding-top: 1rem;
+    z-index: 1000;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
 }
 
 header h1 {
@@ -74,6 +84,7 @@ nav ul li :hover{
     position: relative;
     top: 10rem;
     padding-left: 1.1rem;
+    max-width: 90%;
 }
 
 #aboutme h1 {
@@ -85,8 +96,15 @@ nav ul li :hover{
     font-size: 1.3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 2rem;
     width: 90%;
+    padding-left: 7rem;
+}
+
+.aboutme img {
+    height: auto;
+    width: 500px;
+    border-radius: 7px;
 }
