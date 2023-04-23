@@ -54,7 +54,7 @@ header span {
     align-items: center;
 }
 
-header span img{
+header span a img{
     display: inline;
     padding-left: 1.1rem;
 }
