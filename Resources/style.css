@@ -79,6 +79,71 @@ nav ul li :hover{
     color: #929292;
 }
 
+@media only screen and (max-width: 400px) {
+    nav ul {
+        display: none;
+    }
+
+    header h1 {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FBAE3C;
+        border-radius: 56px;
+        position: fixed;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        z-index: 1000;
+    }
+
+    .mobile ul li {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        padding: 1rem;
+    }
+
+    .mobile ul {
+        display: inline;
+        padding: 0;
+    }
+
+    .mobile ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .aboutme p{
+        flex-wrap: wrap;
+        margin-right: 1rem;
+    }
+
+    .aboutme img {
+        display: none;
+    }
+
+    html {
+        background-image: url(./Media/blob-scene-haikei\ mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .mobile {
+        display: none;
+    }
+}
+
 /** About me article **/
 #aboutme {
     position: relative;
@@ -101,6 +166,12 @@ nav ul li :hover{
     padding-top: 2rem;
     width: 90%;
     padding-left: 7rem;
+}
+
+.aboutme p {
+    padding-right: 3.5rem;
+    font-family: cursive;
+    color: #FBAE3C;
 }
 
 .aboutme img {
