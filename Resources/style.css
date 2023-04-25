@@ -79,7 +79,7 @@ nav ul li :hover{
     color: #929292;
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 100px) and (max-width: 550px){
     nav ul {
         display: none;
     }
@@ -89,6 +89,10 @@ nav ul li :hover{
     }
 
     .header {
+        display: none;
+    }
+
+    .mobile span {
         display: none;
     }
 
@@ -138,9 +142,70 @@ nav ul li :hover{
     }
 }
 
-@media only screen and (min-width: 1200px) {
-    .mobile {
+@media only screen and (min-width: 550px) and (max-width: 780px){
+    nav ul {
         display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FBAE3C;
+        border-radius: 56px;
+        position: fixed;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        z-index: 1000;
+    }
+
+    .mobile span {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 1rem;
+    }
+
+    .mobile span h1 {
+        margin-left: 1rem;
+        color: black;
+    }
+
+    .mobile ul li {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        padding: 1rem;
+    }
+
+    .mobile ul {
+        display: inline;
+        padding: 0;
+    }
+
+    .mobile ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .aboutme p{
+        flex-wrap: wrap;
+        margin-right: 1rem;
+    }
+
+    .aboutme img {
+        display: none;
+    }
+
+    html {
+        background-image: url(./Media/blob-scene-haikei\ mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
@@ -178,4 +243,90 @@ nav ul li :hover{
     height: auto;
     width: 500px;
     border-radius: 7px;
+}
+
+@media only screen and (min-width: 780px) and (max-width: 1100px){
+    nav ul {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #FBAE3C;
+        border-radius: 56px;
+        position: fixed;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+        z-index: 1000;
+    }
+
+    .mobile span {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 1rem;
+    }
+
+    .mobile span h1 {
+        margin-left: 1rem;
+        color: black;
+    }
+
+    .mobile ul li {
+        display: inline;
+        text-decoration: none;
+        list-style: none;
+        padding: 1rem;
+    }
+
+    .mobile ul {
+        display: inline;
+        padding: 0;
+    }
+
+    .mobile ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .aboutme p{
+        flex-wrap: wrap;
+        margin-right: 1rem;
+    }
+
+    .aboutme {
+        font-size: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2rem;
+        width: 90%;
+        padding-left: 7rem;
+    }
+
+    .aboutme img {
+        margin-top: 3rem;
+        margin-right: 6.3rem;
+    }
+
+    html {
+        background-image: url(./Media/blob-scene-haikei\ mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+    .mobile {
+        display: none;
+    }
 }
