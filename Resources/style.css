@@ -5,6 +5,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Quicksand', sans-serif;
+    background-color: #FBAE3C;
 }
 
 body {
@@ -114,6 +115,38 @@ nav ul li :hover{
     width: 500px;
     border-radius: 7px;
 }
+
+/** Skills **/
+#skills {
+    position: relative;
+    top: 30rem;
+    background-color: #001220;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#skills h1 {
+    padding: 1rem;
+    font-family: cursive;
+    color: #FBAE3C;
+    font-size: 2rem;
+}
+
+.skills {
+    padding: 1.3rem;
+    font-family: cursive;
+    font-size: 1.3rem;
+    display: flex;
+}
+
+#skills img {
+    height: 3rem;
+    width: auto;
+    padding: 0.7rem 1.5rem;
+}
+
 
 /** Media Queries **/
 

@@ -7,4 +7,16 @@ const source = document.getElementById("about-me");
 const sourcetemplate = source.innerHTML;
 const template = Handlebars.compile(sourcetemplate);
 const compiledHtml = template(context);
-document.getElementsByClassName('aboutme')[0].innerHTML = compiledHtml
+document.getElementsByClassName('aboutme')[0].innerHTML = compiledHtml;
+
+
+
+const context1 = {
+    body1: 'I can design web pages as a Front-End Dev. using the three main languages: HTML, CSS, Javascript.',
+};
+
+const source1 = document.getElementById("skills-java");
+const sourcetemplate1 = source1.innerHTML;
+const template1 = Handlebars.compile(sourcetemplate1);
+const compiledHtml1 = template1(context1);
+document.getElementsByClassName('skills')[0].innerHTML = compiledHtml1
