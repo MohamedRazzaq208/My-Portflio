@@ -147,6 +147,24 @@ nav ul li :hover{
     padding: 0.7rem 1.5rem;
 }
 
+/** Footer **/
+footer {
+    position: relative;
+    top: 30rem;
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    border-top: solid 1px slategrey;
+    padding: 2rem 1rem;
+}
+
+footer span {
+    color: blue;
+}
+
+footer p a {
+    text-decoration: none;
+}
 
 /** Media Queries **/
 
