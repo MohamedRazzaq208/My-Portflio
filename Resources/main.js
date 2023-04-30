@@ -12,7 +12,7 @@ document.getElementsByClassName('aboutme')[0].innerHTML = compiledHtml;
 
 
 const context1 = {
-    body1: 'I can design web pages as a Front-End Dev. using the three main languages: HTML, CSS, Javascript.',
+    body1: 'I can design web pages as a Front-End Dev. using the three main languages: HTML, CSS and Javascript.',
 };
 
 const source1 = document.getElementById("skills-java");
