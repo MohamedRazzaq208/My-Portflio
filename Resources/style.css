@@ -5,7 +5,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Quicksand', sans-serif;
-    background-color: #FBAE3C;
+    background-color: #001220;
 }
 
 body {
@@ -191,7 +191,6 @@ footer p a {
         align-items: center;
         background-color: #FBAE3C;
         border-radius: 56px;
-        
         width: 100%;
         margin-top: 0;
         padding-top: 0;
@@ -230,7 +229,7 @@ footer p a {
         flex-wrap: wrap;
         margin: 0;
         padding: 0;
-        font-family: cursive;
+        font-family: 'Quicksand', sans-serif;
         margin-top: 1rem;
     }
 
@@ -310,7 +309,7 @@ footer p a {
     .aboutme p{
         flex-wrap: wrap;
         margin-right: 1rem;
-        font-family: cursive;
+        font-family: 'Quicksand', sans-serif;
         margin-top: 1rem
     }
 
@@ -379,7 +378,7 @@ footer p a {
     .aboutme p{
         flex-wrap: wrap;
         margin-right: 1rem;
-        font-family: cursive;
+        font-family: 'Quicksand', sans-serif;
         margin-top: 1rem;
     }
 
