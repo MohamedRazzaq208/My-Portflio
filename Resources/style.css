@@ -67,6 +67,8 @@ nav ul {
 nav ul li {
     display: inline;
     padding-right: 1.3rem;
+    cursor: pointer;
+    transition: 0.4s all ease;
 }
 
 nav ul li a {
@@ -78,6 +80,7 @@ nav ul li a {
 
 nav ul li :hover{
     color: #929292;
+    transition: 0.4s all ease;
 }
 
 /** About me article **/
