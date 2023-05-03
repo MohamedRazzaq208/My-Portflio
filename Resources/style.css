@@ -169,6 +169,49 @@ footer p a {
     text-decoration: none;
 }
 
+/** Contact page **/
+ .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .contact h1 {
+    padding: 1rem;
+    font-family: cursive;
+    color: #FBAE3C;
+ }
+
+ .call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4.2rem;
+ }
+
+ .gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4.2rem;
+    font-size: 1.3rem;
+ }
+
+.anchors {
+    text-decoration: none;
+    color: #FBAE3C;
+}
+
+.footer {
+    background-color: #001220;
+    border-top: 1px solid slategrey;
+    padding: 1.5rem;
+    font-size: 1.3rem;
+    font-family: cursive;
+}
 /** Media Queries **/
 
 @media only screen and (min-width: 100px) and (max-width: 550px){
